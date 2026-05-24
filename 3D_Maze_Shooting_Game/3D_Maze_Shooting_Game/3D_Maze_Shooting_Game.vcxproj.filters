@@ -1,37 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{e74c9865-3951-4bec-abf2-08d4db394d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{02c5ca6b-568c-4246-b405-c9780f539edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\01.Header">
+      <UniqueIdentifier>{05c3179c-3f6c-4912-895c-341f0842efaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\02.Core">
+      <UniqueIdentifier>{eeebb124-8468-4cc5-8f5c-ccada84e0873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager">
+      <UniqueIdentifier>{9fa479e0-5c1f-41f0-9214-d2b1ef5a431c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\04.Object">
+      <UniqueIdentifier>{c2ef6332-8224-4f1d-9ee6-0414da4e25bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\05.Scene">
+      <UniqueIdentifier>{26c2e65f-0668-4ac1-bf91-e21991529933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\06.Shader">
+      <UniqueIdentifier>{77f49d76-fe74-43d9-b2b4-2eb598bcbe27}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="3D_Maze_Shooting_Game.h">
+      <Filter>Define</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>Define</Filter>
     </ClInclude>
-    <ClInclude Include="3D_Maze_Shooting_Game.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="targetver.h">
+      <Filter>Define</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="3D_Maze_Shooting_Game.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClInclude Include="stdafx.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="3D_Maze_Shooting_Game.rc">
@@ -45,5 +56,13 @@
     <Image Include="3D_Maze_Shooting_Game.ico">
       <Filter>리소스 파일</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3D_Maze_Shooting_Game.cpp">
+      <Filter>Engine\02.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Engine\01.Header</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
