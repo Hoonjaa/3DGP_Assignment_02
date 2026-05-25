@@ -43,6 +43,9 @@
     <ClInclude Include="stdafx.h">
       <Filter>Engine\01.Header</Filter>
     </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Engine\02.Core</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="3D_Maze_Shooting_Game.rc">
@@ -63,6 +66,9 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Engine\01.Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Engine\02.Core</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
