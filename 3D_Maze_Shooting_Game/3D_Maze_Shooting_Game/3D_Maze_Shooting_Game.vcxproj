@@ -126,18 +126,33 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="3D_Maze_Shooting_Game.h" />
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="Core.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="SceneMgr.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3D_Maze_Shooting_Game.cpp" />
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Core.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="SceneMgr.cpp" />
+    <ClCompile Include="Shader.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="3D_Maze_Shooting_Game.rc" />

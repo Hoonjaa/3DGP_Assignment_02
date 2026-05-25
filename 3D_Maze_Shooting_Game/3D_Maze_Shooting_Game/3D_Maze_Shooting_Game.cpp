@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "3D_Maze_Shooting_Game.h"
+#include "Core.h"
 
 #define MAX_LOADSTRING 100
 
@@ -56,10 +57,10 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
         }
         else
         {
-            //Core::Instance()->Progress();
+            Core::Instance()->Progress();
         }
     }
-    //Core::Instance()->OnDestroy();
+    Core::Instance()->OnDestroy();
 
     return (int) msg.wParam;
 }
@@ -118,7 +119,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
       return FALSE;
    }
 
-   //Core::Instance()->Init(hMainWnd, hInstance);
+   Core::Instance()->Init(hWnd, hInstance);
 
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);

@@ -29,6 +29,21 @@
     <Filter Include="Engine\06.Shader">
       <UniqueIdentifier>{77f49d76-fe74-43d9-b2b4-2eb598bcbe27}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\03.Manager\KeyMgr">
+      <UniqueIdentifier>{8df74bff-37bc-4df2-876d-c5d0cadb710b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\SceneMgr">
+      <UniqueIdentifier>{81c2b14c-0367-408f-9ee5-017f918128af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\03.Manager\TimeMgr">
+      <UniqueIdentifier>{1123df0e-fd00-43f9-b910-2b3b1bd0499a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\07.Camera">
+      <UniqueIdentifier>{66296db7-6a92-4b0b-8f94-2d93a18839a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\08.Mesh">
+      <UniqueIdentifier>{360e9f3a-73fc-4898-80f8-ff83170719a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3D_Maze_Shooting_Game.h">
@@ -45,6 +60,30 @@
     </ClInclude>
     <ClInclude Include="Core.h">
       <Filter>Engine\02.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\03.Manager\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Engine\01.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Engine\03.Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Engine\03.Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Engine\08.Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\07.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Engine\04.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Engine\06.Shader</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +108,27 @@
     </ClCompile>
     <ClCompile Include="Core.cpp">
       <Filter>Engine\02.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Engine\03.Manager\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Engine\03.Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>Engine\03.Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Engine\08.Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\07.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Engine\04.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine\06.Shader</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

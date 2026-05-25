@@ -2,8 +2,7 @@
 class Core
 {
 public:
-	Core();
-	~Core() {}
+	SINGLE(Core);
 
 private:
 	HINSTANCE hInstance;
